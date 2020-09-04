@@ -1,0 +1,49 @@
+p {
+}
+
+body {
+    background-color: white;
+    width: 1000px; 
+}
+
+h1 {
+    text-align: center;
+}
+
+ol {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    width: 21%;
+    background-color: skyblue;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+}
+
+span.webpage{
+    color: #89703e;
+}
+
+div.pdivclass {
+    color: darkblue;
+}
+
+a#myid {
+    color: black;
+}
+
+a.menu {
+    color: white;
+}
+
+
+li:hover {
+    background-color: white;
+    color: blue;
+}
+
