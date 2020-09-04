@@ -2,7 +2,7 @@ p {
 }
 
 body {
-    background-color: white;
+    background-color: whitesmoke;
     width: 1000px; 
 }
 
@@ -18,7 +18,7 @@ ol {
 li {
     list-style-type: none;
     display: inline-block;
-    width: 21%;
+    width: 25%;
     background-color: skyblue;
     color: white;
     margin: 0px;
