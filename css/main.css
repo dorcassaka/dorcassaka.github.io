@@ -1,4 +1,5 @@
-p {
+body, html {
+    height:100%;
 }
 
 body {
@@ -29,11 +30,11 @@ span.webpage{
     color: #89703e;
 }
 
-div.pdivclass {
+div.about {
     color: darkblue;
 }
 
-a#myid {
+div.currently {
     color: black;
 }
 
