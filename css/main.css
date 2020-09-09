@@ -6,40 +6,43 @@ body {
     background-color: whitesmoke;
     width: 1000px; 
 }
-img{width: 50%}
+img{width: 100%}
 h1 {
     text-align: center;
 }
 
-ol {
+.mainnav {
     padding: 0px;
     margin: 0px;
+    float: inline-start;
+   color: skyblue 
 }
 
 li {
     list-style-type: none;
     display: inline-block;
-    width: 25%;
+    width: 30%;
     background-color: skyblue;
     color: white;
     margin: 0px;
     padding: 0px;
 }
 
-span.webpage{
-    color: #89703e;
-}
-
-div.about {
+.subnav{
     color: darkblue;
 }
 
-div.currently {
+.about {
+    color: skyblue;
+}
+
+.currently {
     color: black;
 }
 
-a.menu {
-    color: white;
+.baking {
+   background-color: blue;
+   color: white
 }
 
 
@@ -48,3 +51,4 @@ li:hover {
     color: blue;
 }
 
+@media screen and (max-width: 500px)
