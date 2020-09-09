@@ -8,6 +8,7 @@ body{
 div.about {
     color: black; 
     margin:0px;
+    border-image-width: cover;
 }
 
 div.baking{
@@ -16,7 +17,7 @@ div.baking{
 h1 {
     text-align: center;
     color:skyblue;
-    
+
 }
 
 div.currently {
