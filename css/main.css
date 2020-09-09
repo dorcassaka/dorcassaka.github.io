@@ -1,21 +1,24 @@
-body, html {
-    height:100%;
+body{
+    text-align: center;
+    color:black;
+    background-color:powderblue;
+    width:1000px;
 }
 
-body {
-    background-color: whitesmoke;
-    width: 1000px; 
+div.about {
+    color: whitesmoke;
 }
-img{width: 100%}
+
+div.baking{
+    background:darkblue;}
+
 h1 {
     text-align: center;
+    color:skyblue
 }
 
-.mainnav {
-    padding: 0px;
-    margin: 0px;
-    float: none;
-   color: skyblue 
+div.currently {
+   background-color: white
 }
 
 li {
@@ -25,25 +28,21 @@ li {
     background-color: skyblue;
     color: white;
     margin: 0px;
-    padding: 0px;
+    padding: 10px;
 }
-
-.subnav{
+span.about{
     color: darkblue;
 }
 
-.about {
-    color: skyblue;
-}
-
-.currently {
+div.others {
     color: black;
 }
 
-.baking {
-   background-color: blue;
-   color: white
+div.main {
+    margin:auto;
 }
+
+
 
 
 li:hover {
@@ -51,4 +50,6 @@ li:hover {
     color: blue;
 }
 
-@media screen and (max-width: 500px)
+@media only screen and (max-width: 600px) {
+    body { background-color:powderblue}
+}
