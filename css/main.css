@@ -14,7 +14,7 @@ h1 {
 .mainnav {
     padding: 0px;
     margin: 0px;
-    float: inline-start;
+    float: none;
    color: skyblue 
 }
 
