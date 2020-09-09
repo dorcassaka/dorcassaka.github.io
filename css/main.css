@@ -1,20 +1,22 @@
 body{
     text-align: center;
     color:black;
-    background-color:powderblue;
+    background-color:rgb(209, 248, 253);
     width:1000px;
 }
 
 div.about {
-    color: whitesmoke;
+    color: black; 
+    margin:0px;
 }
 
 div.baking{
-    color:black;}
+    color:blue;}
 
 h1 {
     text-align: center;
-    color:skyblue
+    color:skyblue;
+    
 }
 
 div.currently {
@@ -41,9 +43,6 @@ div.others {
 div.main {
     margin:auto;
 }
-
-
-
 
 li:hover {
     background-color: white;
